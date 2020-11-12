@@ -1,21 +1,20 @@
 package com.example.NYTMovieReview;
 
 public class Results {
-    public String display_title;
-    public String mpaa_rating;
-    public int critics_pick;
-    public String byline;
-    public String headline;
-    public String summary_short;
-    public String publication_date;
-    public String opening_date;
-    public String date_updated;
+    // declare Results variables
+    private String display_title;
+    private String mpaa_rating;
+    private int critics_pick;
+    private String byline;
+    private String headline;
+    private String summary_short;
+    private String publication_date;
+    private String opening_date;
+    private String date_updated;
     private Link link;
     private Multimedia multimedia;
 
-    // values:
-    // "The Black Godfather", "", 0, "BEN KENIGSBERG", "'The Black Godfather'", "Reginald Hudlin’s documentary about Clarence Avant includes many golden anecdotes.", "2019-06-06", "2019-06-07", "2019-06-14 16:44:01", link, multimedia
-
+    // create Results constructor to be used to make new Results objects
     public Results(String display_title, String mpaa_rating, int critics_pick, String byline, String headline, String summary_short, String publication_date, String opening_date, String date_updated, Link link, Multimedia multimedia) {
         this.display_title = display_title;
         this.mpaa_rating = mpaa_rating;
@@ -30,6 +29,7 @@ public class Results {
         this.multimedia = multimedia;
     }
 
+    // create getters
     public String getDisplay_title() {
         return display_title;
     }

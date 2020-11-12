@@ -1,14 +1,13 @@
 package com.example.NYTMovieReview;
 
 public class Multimedia {
+    // declare Multimedia variables
     private String type;
     private String src;
     private int width;
     private int height;
 
-    // values:
-    // "mediumThreeByTwo210", "https://static01.nyt.com/images/2019/06/05/arts/blackgodfather1/blackgodfather1-mediumThreeByTwo210.jpg", 210, 140
-
+    // create Multimedia constructor to be used to create new Multimedia objects
     public Multimedia(String type, String src, int width, int height) {
         this.type = type;
         this.src = src;
@@ -16,6 +15,7 @@ public class Multimedia {
         this.height = height;
     }
 
+    // create getters
     public String getType() {
         return type;
     }

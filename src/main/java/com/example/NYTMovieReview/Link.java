@@ -1,19 +1,19 @@
 package com.example.NYTMovieReview;
 
 public class Link {
+    // declare Link variables
     private String type;
     private String url;
     private String suggested_link_text;
 
-    // values:
-    // "article", "http://www.nytimes.com/2019/06/06/movies/the-black-godfather-review.html", "Read the New York Times Review of The Black Godfather"
-
+    // create Link constructor to be used for creating new Link objects
     public Link(String type, String url, String suggested_link_text) {
         this.type = type;
         this.url = url;
         this.suggested_link_text = suggested_link_text;
     }
 
+    // create getters
     public String getType() {
         return type;
     }
