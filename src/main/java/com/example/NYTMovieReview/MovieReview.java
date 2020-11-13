@@ -2,6 +2,8 @@ package com.example.NYTMovieReview;
 
 import java.util.ArrayList;
 
+// NYT API to go off of https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=godfather&api-key=6GEBOu5fhWXKfRs7Qf4VZnh07mBrjRuB
+
 public class MovieReview {
     // declare MovieReview variables
     private String status;
